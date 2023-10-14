@@ -1,0 +1,50 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.container{
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.container-imgs{
+    display: flex;
+    transform: translateX(0);
+    transition: all 0.3s linear;
+}
+img{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.buttons{
+    position: relative;
+}
+
+.next{
+    background-color: rebeccapurple;
+    color: white;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.prev{
+    background-color: rebeccapurple;
+    color: white;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+} 
